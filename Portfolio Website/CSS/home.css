@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    background: url("../Images/background-image.png") no-repeat;
+    background-size: cover;
+}
+
+.design-container {
+    /* border: 2px solid yellow; */
+    background: none;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    margin: 10px;
+    padding: 30px;
+}
+
+.buttons {
+    /* border: 2px solid red; */
+    background: none;
+    list-style: none;
+    margin: 10px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-buttons {
+    background: gray;
+    border: 1px solid;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    font-size: 1.4rem;
+    margin: 5px 10px;
+    padding: 7px 7px;
+    width: 120px;
+}
+
+.info-buttons:hover {
+    font-weight: bold;
+}
+
+.main-container {
+    /* border: 2px solid red; */
+    background: none;
+    margin: 30px 50px;
+}
+
+.name-profession {
+    /* border: 2px solid pink; */
+    background: none;
+    width: 60%;
+    margin: 5px 50px 5px 25px;
+}
+
+.my-pic {
+    /* border: 2px solid green; */
+    background: url("../Images/MyPic.jpg") no-repeat;
+    background-size: cover;
+    border-radius: 100%;
+    margin: 5px 50px 5px 50px;
+    height: 300px;
+    width: 300px;
+}
+
+.main-content {
+    /* border: 2px solid white; */
+    background: none;
+    width: 95%;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+
+}
+
+.main-content #name,
+#profession {
+    background: none;
+    color: white;
+    margin: 15px;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.main-content #name {
+    font-size: 4.5rem;
+    margin: 5px;
+    padding: 5px;
+}
+
+.main-content #profession {
+    font-size: 3rem;
+    margin: 5px 30px;
+    padding: 5px;
+}
+
+.professional-work {
+    /* border: 2px solid red; */
+    background: none;
+    margin: 10px auto;
+    padding: 5px;
+    width: 80%;
+}
+
+.professional-work #my-summary {
+    background: none;
+    color: white;
+    font-size: 1.5rem;
+    line-height: 1.2;
+    text-align: justify;
+}

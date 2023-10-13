@@ -1,0 +1,461 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.first-container {
+    background: url("../Images/bg-img.png") no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #404eed;
+    height: 650px;
+}
+
+.navigation-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo-div {
+    margin: auto 5px;
+}
+
+#discord-logo {
+    width: 125px;
+}
+
+.navbar {
+    display: flex;
+    margin: 15px 5px;
+}
+
+.nav-tabs {
+    list-style: none;
+    margin: 15px 20px;
+}
+
+.navbar .nav-tabs .tabs {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.button-div {
+    margin: auto 5px;
+}
+
+#login-button {
+    border: none;
+    padding: 12px;
+    border-radius: 25px;
+    width: 65px;
+}
+
+.heading-container {
+    width: 60%;
+    margin: 20px auto;
+    text-align: center;
+    margin-top: 120px;
+}
+
+.first-line {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 56px;
+    font-weight: 800;
+    color: white;
+    -webkit-text-stroke: 2px white;
+}
+
+.info-1 {
+    margin-top: 40px;
+    color: white;
+    font-size: clamp(16px, 2vw, 20px);
+    line-height: 1.625;
+}
+
+.button-container {
+    width: 49%;
+    margin: 25px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.buttons {
+    border: none;
+    border-radius: 28px;
+    padding: 16px 32px;
+    font-size: 20px;
+    color: white;
+}
+
+#button-img-1 {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+}
+
+#download-link-1 {
+    text-decoration: none;
+    position: relative;
+    top: -2px;
+    color: black;
+}
+
+#first-button {
+    background: white;
+}
+
+#second-button {
+    background-color: #23272a;
+}
+
+.first-img {
+    position: absolute;
+    bottom: 35px;
+    left: 50%;
+    display: block;
+    height: auto;
+    width: auto;
+    max-width: none;
+    margin-left: -1030px;
+}
+
+.second-img {
+    position: absolute;
+    width: 300px;
+    height: 375px;
+    right: 0px;
+    bottom: 25px;
+    background: url("../Images/c40c84ca18d84633a9d86b4046a91437.svg");
+}
+
+.second-container {
+    padding: 100px 45px;
+    display: flex;
+    height: 30rem;
+}
+
+.third-img {
+    max-width: 678px;
+    max-height: 440px;
+}
+
+.info-container-1 {
+    display: flex;
+    flex-direction: column;
+}
+
+#info-2-heading {
+    font-size: 50px;
+    text-align: left;
+    margin: 30px 20px 5px 20px;
+    padding: 20px;
+    width: 70%;
+}
+
+#info-2 {
+    font-size: 1.3rem;
+    line-height: 1.625;
+    margin: 0px 20px 10px 30px;
+    padding: 0px 20px 10px 20px;
+    text-align: justify;
+    width: 65%;
+}
+
+.third-container {
+    display: flex;
+    height: 40rem;
+    background: #f6f6f6;
+}
+
+#info-3-heading {
+    font-size: 50px;
+    text-align: left;
+    margin: 170px 20px 5px 50px;
+    padding: 20px;
+    width: 70%;
+}
+
+#info-3 {
+    font-size: 1.3rem;
+    line-height: 1.625;
+    margin: 0px 20px 10px 50px;
+    padding: 0px 20px 10px 20px;
+    text-align: left;
+    width: 70%;
+}
+
+.forth-img {
+    max-width: 678px;
+    max-height: 440px;
+    margin: 100px 70px 0px 10px
+}
+
+.forth-container {
+    display: flex;
+    height: 43rem;
+}
+
+.fifth-img {
+    max-width: 678px;
+    max-height: 440px;
+    margin: 130px 30px 0px 70px;
+}
+
+#info-4-heading {
+    font-size: 50px;
+    text-align: left;
+    margin: 200px 20px 5px 60px;
+    padding: 20px;
+    width: 60%;
+}
+
+#info-4 {
+    font-size: 1.3rem;
+    line-height: 1.625;
+    margin: 0px 20px 10px 60px;
+    padding: 0px 20px 10px 20px;
+    text-align: left;
+    width: 75%;
+}
+
+.fifth-container {
+    height: 82rem;
+    margin: 0px 0px;
+    padding: 20px 0px;
+    background: #f6f6f6;
+}
+
+#info-5-heading {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 50px;
+    font-weight: 800;
+    -webkit-text-stroke: 2px white;
+    text-align: center;
+    margin: 80px 20px 10px 20px;
+}
+
+#info-5 {
+    font-size: 1.3rem;
+    line-height: 1.625;
+    text-align: center;
+    width: 75%;
+    margin: 20px auto;
+}
+
+.sixth-img {
+    width: 90%;
+    height: 35rem;
+    margin: 100px auto;
+    margin-bottom: 160px;
+    text-align: center;
+    background: url("../Images/sixth-img.png") no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.img-and-button-box {
+    background: #f6f6f6;
+}
+
+.img-box {
+    width: 40%;
+    margin: 20px auto;
+    margin-bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#info-6-heading {
+    font-size: 30px;
+    font-weight: 700;
+    position: relative;
+    bottom: 20px;
+}
+
+.download-button {
+    border: none;
+    border-radius: 28px;
+    padding: 16px 32px;
+    font-size: 20px;
+    color: white;
+}
+
+#third-button {
+    background-color: #5865f2;
+    border-radius: 28px;
+    margin: 20px auto;
+    padding: 16px 32px;
+    font-size: 20px;
+    width: 18%;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.down-to-bracket-arrow {
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+}
+
+#down-to-bracket-arrow-1 {
+    width: 24px;
+    height: 24px;
+}
+
+#down-to-bracket-arrow-2 {
+    position: relative;
+    bottom: 30px;
+    width: 24px;
+    height: 24px;
+}
+
+#download-link-2 {
+    text-decoration: none;
+    margin-left: 5px;
+    color: white;
+}
+
+.sixth-container {
+    height: 30rem;
+    padding: 60px 0px;
+    background-color: #23272a;
+}
+
+.footer-div-1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.first-box {
+    width: 20%;
+    margin: 10px 60px;
+}
+
+.country-flag {
+    display: flex;
+    margin: 10px 0px;
+    padding: 10px 0px;
+}
+
+.country-flag:hover {
+    cursor: pointer;
+}
+
+#flag-img {
+    width: 24px;
+    height: 18px;
+    margin-right: 5px;
+}
+
+.country-flag p {
+    margin-left: 5px;
+    color: white;
+    font-size: 0.9rem;
+}
+
+.country-flag>i {
+    color: #fff;
+    margin-left: 8px;
+}
+
+.logo-images {
+    margin: 30px 0px;
+    padding: 10px 0px;
+    width: 235px;
+}
+
+.logo-images>i {
+    font-size: 1.4rem;
+    color: #fff;
+    margin: 0 9px;
+}
+
+.social-media-logos {
+    width: 25px;
+    margin-right: 20px;
+}
+
+.social-media-logos:hover {
+    cursor: pointer;
+}
+
+.second-box {
+    margin: 10px 70px;
+    margin-left: 20px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-items-div {
+    margin: px 35px;
+    width: 170px;
+}
+
+.li-items:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.product-div-head {
+    color: #5865f2;
+    font-size: 16px;
+    font-weight: inherit;
+    margin-bottom: 20px;
+}
+
+.li-items {
+    list-style: none;
+    color: inherit;
+    margin: 8px 0px;
+    display: block;
+}
+
+.links {
+    text-decoration: none;
+    color: white;
+    line-height: 24px;
+    width: 60%;
+}
+
+.footer-div-2 {
+    margin: 30px 0px;
+}
+
+.empty-div {
+    background-color: #5865f2;
+    height: 1px;
+    margin: 0px 80px;
+    margin-bottom: 32px
+}
+
+.logo-and-signup-button {
+    display: flex;
+    align-items: center;
+    margin: 0px 80px;
+    justify-content: space-between;
+}
+
+#discord-logo-2 {
+    width: 125px;
+}
+
+#signup-button {
+    border: none;
+    background-color: #5865f2;
+    color: white;
+    border-radius: 40px;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 10px 16px;
+}
+
+#signup-button:hover {
+    background-color: hsl(235, 86.1%, 71.8%);
+}

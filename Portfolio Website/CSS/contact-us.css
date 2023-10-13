@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    background: url("../Images/background-image.png") no-repeat;
+    background-size: cover;
+}
+
+.design-container {
+    /* border: 2px solid yellow; */
+    background: none;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    margin: 10px;
+    padding: 30px;
+}
+
+.buttons {
+    /* border: 2px solid red; */
+    background: none;
+    list-style: none;
+    margin: 10px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-buttons {
+    background: gray;
+    border: 1px solid;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    font-size: 1.4rem;
+    margin: 5px 10px;
+    padding: 7px 7px;
+    width: 120px;
+}
+
+.info-buttons:hover {
+    font-weight: bold;
+}
+
+.content-heading {
+    /* border: 2px solid red; */
+    background: none;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+#heading {
+    background: none;
+    font-size: 4rem;
+    color: white;
+}
+
+.contact-container {
+    /* border: 2px solid white; */
+    background: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 15px;
+}
+
+.contact-container .contact-boxes {
+    /* border: 2px solid red; */
+    background: none;
+    width: 30%;
+    /* height: 200px; */
+}
+
+.contact-container .contact-boxes .logo-heading {
+    /* border: 2px solid white; */
+    background: none;
+    margin: auto 120px;
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.logo-img {
+    background: none;
+    width: 27px;
+    margin: 5px;
+}
+
+.heading {
+    background: none;
+    color: white;
+    margin: 5px;
+}
+
+.contact-box-details {
+    /* border: 2px solid yellow; */
+    background: none;
+    width: 75%;
+    margin: 15px auto;
+    padding: 5px;
+    text-align: center;
+}
+
+.contact-details {
+    background: none;
+    display: flex;
+    margin: 15px;
+}
+
+.contact-images {
+    background: none;
+    width: 27px;
+    height: 27px;
+    margin: 5px;
+}
+
+#contact-number,
+#contact-email,
+#linkedin-id,
+#github-id {
+    text-decoration: none;
+    background: none;
+    color: white;
+    font-size: 1.2em;
+    margin: 5px;
+}
+
+#contact-number:hover,
+#contact-email:hover,
+#linkedin-id:hover,
+#github-id:hover{
+    text-decoration: underline;
+}
+
+#home-heading{
+    background: none;
+    color: white;
+    font-size: 1.2rem;
+    margin: 10px;
+}
+
+#address {
+    background: none;
+    color: white;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin: 2px;
+}
+
+#linkedin-id{
+    /* border: 1px solid white; */
+    font-size: 1.1rem;
+}
